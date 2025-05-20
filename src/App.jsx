@@ -15,7 +15,8 @@ function App() {
     <p>Venkata</p>
     <span>{count}</span>
 
-    <button>INCR</button>
+    <button onClick= {()=>dispatch(increement)}>INCR</button>
+    <button onClick={()=> dispatch(decreement)}>DECREE</button>
   
     </>
   )

@@ -1,4 +1,4 @@
-export const increement =()=> {
+export const increement = {
     type : "INC"
 }
 
